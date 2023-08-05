@@ -1,0 +1,10 @@
+SpeechRecognition
+nltk
+tflearn
+pyaudio
+numpy
+tensorflow
+pyttsx3
+json
+os
+pickle
