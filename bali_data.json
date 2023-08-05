@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Aap kaise ho ?", "namaste", "Hello Bali" ],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello! I'm Bali. How may I help you?", "Hey there!", "main Accha hu!!Aap kaise hai?", "Namaste main Bali hu, mujhe AI Developer Aman ne banaya hai" ],
+         "context_set": ""
+        },
+        {"tag": "book_table",
+         "patterns": ["Book a table","Can I book a table?", "I want to book a table", "Book seat", "I want to book a seat", "Can I book a seat?"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "available_tables",
+         "patterns": ["How many seats are available?", "Available seats", "How many tables are available?", "Available tables"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "cya later", "I gotta go now", "I gotta rush now", "fhir milenge bali", "abhi hum chalte hai"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "thik hai Duao main yaad rakhna ek puppy", "fhir milenge love you"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Bali", "what is your age", "how old are you", "age?", "Aap ka umar kya hai"],
+         "responses": ["My master AI Developer Aman , built me just a month ago  currently i am ina developing stage.", "Just a month old!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "Aap ka naam kya hai", "Aap kon hai","Main aap ko kya bula sakta hu", "Aap ko main kya bula sakta hu"],
+         "responses": ["You can call me BAli.", "I'm Bali!", "I'm Bali aka A Hacking Agent but right know i am in a learning phase."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation", "hours", "what is the timing"],
+         "responses": ["We are open 10am-12am Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "menu",
+         "patterns": ["Id like to order something", "whats on the menu", "what do you reccommend?", "could i get something to eat", "Im hungry"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["contact information", "contact us", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?"],
+         "responses": ["You can contact us at contact@restaurantname.com"],
+         "context_set": ""
+        },
+        {"tag": "address",
+         "patterns": ["what is the location?","whats the location", "where are you locatated?", "where is the restaurant located?", "address", "whats the address?"],
+         "responses": ["You can locate us at Taj Lands End, Bandra Bandstand, Bandra West, Mumbai, Maharashtra 400 050"],
+         "context_set": ""
+        }
+   ]
+}
